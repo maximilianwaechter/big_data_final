@@ -1,6 +1,6 @@
 # Heat Vulnerability × Crime in Philadelphia
 
-Final project for *(course name / number)*, Spring 2026.
+Final project for Big Data, Spring 2026.
 Bivariate spatial analysis combining Landsat 8 land-surface temperature with
 2024 Philadelphia Police Department incident records on a 500 m hex grid.
 
@@ -17,7 +17,7 @@ Bivariate spatial analysis combining Landsat 8 land-surface temperature with
 
 ## Live interactive map
 
-👉 **<https://YOUR-USERNAME.github.io/YOUR-REPO/web/>**  *(replace once Pages is enabled)*
+👉 **<https://github.com/maximilianwaechter/big_data_final>**  
 
 Two tabs: a bivariate **Heat × Crime** view (red = hot, blue = high-crime, purple = both)
 and a side-by-side **Comparison** view. Click any of the 20 PPD station markers for
