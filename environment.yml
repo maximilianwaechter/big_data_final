@@ -1,0 +1,22 @@
+name: philly-heat-crime
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - notebook
+  - nbconvert
+  - ipykernel
+  - geopandas
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - rasterio
+  - shapely
+  - pyproj
+  - fiona
+  - pip
+  - pip:
+      - pystac-client
+      - planetary-computer
