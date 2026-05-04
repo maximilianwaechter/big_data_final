@@ -1,0 +1,21 @@
+{
+  "race_colors": {
+    "Black": "#222222",
+    "White": "#4C78A8",
+    "Hispanic": "#F58518",
+    "Asian": "#54A24B",
+    "Other": "#9D9D9D",
+    "Unknown": "#C7C7C7"
+  },
+  "comparison_fields": {
+    "Black": "Black_rate_per_1000",
+    "White": "White_rate_per_1000",
+    "Hispanic": "Hispanic_rate_per_1000",
+    "Asian": "Asian_rate_per_1000"
+  },
+  "ratio_fields": {
+    "Black / White": "black_white_ratio",
+    "Hispanic / White": "hispanic_white_ratio",
+    "Asian / White": "asian_white_ratio"
+  }
+}

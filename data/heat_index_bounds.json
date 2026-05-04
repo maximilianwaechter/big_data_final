@@ -1,0 +1,24 @@
+{
+  "bounds": [
+    [
+      39.87,
+      -75.28
+    ],
+    [
+      40.14,
+      -74.955
+    ]
+  ],
+  "bbox_lonlat": [
+    -75.28,
+    39.87,
+    -74.955,
+    40.14
+  ],
+  "temp_min_f": 78.6,
+  "temp_max_f": 89.16,
+  "grid_size": 200,
+  "source": "proxy",
+  "units": "deg_F",
+  "note": "Proxy heat surface: smoothed kernel of 2024 incident density plus a north-south gradient. Replace with real LST when available."
+}
