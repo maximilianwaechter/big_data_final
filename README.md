@@ -17,7 +17,7 @@ Bivariate spatial analysis combining Landsat 8 land-surface temperature with
 
 ## Live interactive map
 
-👉 **<https://github.com/maximilianwaechter/big_data_final>**  
+👉 **<https://maximilianwaechter.github.io/big_data_final/>**  
 
 Two tabs: a bivariate **Heat × Crime** view (red = hot, blue = high-crime, purple = both)
 and a side-by-side **Comparison** view. Click any of the 20 PPD station markers for
