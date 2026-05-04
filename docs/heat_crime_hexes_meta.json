@@ -1,0 +1,24 @@
+{
+  "hex_count": 968,
+  "hex_size_m": 500.0,
+  "heat_source": "proxy",
+  "heat_tier_cuts_hvi": [
+    33.29886245727539,
+    66.70114135742188
+  ],
+  "crime_tier_cuts_total": [
+    46.0,
+    206.0
+  ],
+  "crime_tier_cuts_violent": [
+    13.0,
+    57.0
+  ],
+  "crime_tier_cuts_nonviolent": [
+    37.0,
+    151.0
+  ],
+  "violent_total": 41720,
+  "nonviolent_total": 110894,
+  "note": "Heat-Vulnerability Index (0-100) = percentile rank of mean Landsat surface temperature across Philly hexes. 0 = coolest area in Philly, 100 = hottest. Bivariate class = heat_tier*3 + crime_tier (0-8)."
+}
