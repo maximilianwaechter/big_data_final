@@ -970,26 +970,26 @@
 
     const datasets = {
       district: {
-        url: "./web/districts_results.geojson",
+        url: "./districts_results.geojson",
         label: "Police District",
         idField: "district_id",
         fallbackIdField: "dist_numc"
       },
       psa: {
-        url: "./web/psa_results.geojson",
+        url: "./psa_results.geojson",
         label: "PSA",
         idField: "psa_id",
         fallbackIdField: "psa_id"
       }
     };
 
-    const HEAT_INDEX_IMAGE_URL = "./web/heat_index.jpg";
-    const HEAT_INDEX_PNG_URL = "./web/heat_index.png";
-    const HEAT_INDEX_BOUNDS_URL = "./web/heat_index_bounds.json";
-    const CRIME_POINTS_URL = "./web/crime_points_2024.geojson";
-    const CRIME_POINTS_VIOLENT_URL = "./web/crime_points_violent_2024.geojson";
-    const CRIME_POINTS_NONVIOLENT_URL = "./web/crime_points_nonviolent_2024.geojson";
-    const POLICE_STATIONS_URL = "./web/police_stations.geojson";
+    const HEAT_INDEX_IMAGE_URL = "./heat_index.jpg";
+    const HEAT_INDEX_PNG_URL = "./heat_index.png";
+    const HEAT_INDEX_BOUNDS_URL = "./heat_index_bounds.json";
+    const CRIME_POINTS_URL = "./crime_points_2024.geojson";
+    const CRIME_POINTS_VIOLENT_URL = "./crime_points_violent_2024.geojson";
+    const CRIME_POINTS_NONVIOLENT_URL = "./crime_points_nonviolent_2024.geojson";
+    const POLICE_STATIONS_URL = "./police_stations.geojson";
 
     // 3x3 bivariate palette: rows = heat tier (0=low, 1=mid, 2=high),
     // cols = crime tier (0=low, 1=mid, 2=high). Stevens pink-blue scheme:
@@ -1980,13 +1980,13 @@
       }
 
       // Hex grid (the main thing)
-      const hexResp = await fetch("./web/heat_crime_hexes.geojson");
+      const hexResp = await fetch("./heat_crime_hexes.geojson");
       if (!hexResp.ok) throw new Error("heat_crime_hexes.geojson not found - run the Python script first.");
       const hexJson = await hexResp.json();
 
       // Hex meta (cuts, totals, source label)
       try {
-        const metaResp = await fetch("./web/heat_crime_hexes_meta.json");
+        const metaResp = await fetch("./heat_crime_hexes_meta.json");
         if (metaResp.ok) hexMeta = await metaResp.json();
       } catch (e) {
         console.warn("heat_crime_hexes_meta.json not loaded:", e.message);
